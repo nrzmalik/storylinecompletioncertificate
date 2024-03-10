@@ -92,7 +92,7 @@ function generateCertificate() {
     doc.text(title3, xPos, 140, null, null, 'left');
 
     var pageTitle = document.title;
-    doc.setFontSize(36); 
+    doc.setFontSize(24); 
     doc.setFont('Helvetica','bold');
     var pageWidth = doc.internal.pageSize.getWidth();
     var nameWidth = doc.getStringUnitWidth(pageTitle) * doc.internal.getFontSize() / doc.internal.scaleFactor;
